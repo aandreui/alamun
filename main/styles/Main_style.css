@@ -1,0 +1,22 @@
+/* Hoja de Estilos CSS */
+
+.logos {
+    border-radius: 15px;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.MainText {
+    margin-left: 5cm;
+}
+
+.content{
+    margin-left: 5cm;
+}
+
+img {
+    float: left;
+    border-radius: 15px;
+}
