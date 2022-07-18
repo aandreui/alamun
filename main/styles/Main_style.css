@@ -11,7 +11,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(assets/images/banner.png);
+    url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -41,7 +41,7 @@ nav {
 
 /* Estilo de la incorporacion del menu de navegacion */
 .nav-links ul li a {
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-decoration: none;
   font-size: 13px;
 }
@@ -83,4 +83,61 @@ nav {
   margin: 10px 0 40px;
   font-size: 14px;
   color: #fff;
+}
+
+/* Estilo del texto central de la pagina */
+.contact-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Animacion del texto central de la pagina */
+.contact-btn:hover {
+  border: 1px solid #3759f2;
+  background: #3759f2;
+  transition: 1s;
+}
+
+/* Codigo para evitar mostrar los iconos para menu de dispositivos moviles */
+ion-icon {
+  display: none;
+}
+
+/* Optimizacion de la pagina para dispositivos moviles */
+
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 62px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background: #3759f2;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  ion-icon {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 30px;
+  }
 }
