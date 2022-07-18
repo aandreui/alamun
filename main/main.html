@@ -1,4 +1,4 @@
-<! Pagina Principal del MUN >
+<!-----Pagina Principal del MUN----->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,8 @@
         <a href="main.html"
           ><img src="assets/images/logo.png" width="150" height="150"
         /></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -29,13 +30,25 @@
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
+        <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
       </nav>
 
       <div class="text-box">
         <h1>Alamun</h1>
         <p>Welcome to Almun's web page !</p>
-        <a href="">Contact Section</a>
+        <a href="" class="contact-btn">Contact Section</a>
       </div>
     </section>
+
+    <!----Scripts---->
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
