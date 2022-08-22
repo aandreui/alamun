@@ -1,0 +1,16 @@
+/* Hoja de Estilos COMMITTEES CSS ||| NO BORRAR DEL REPOSITORIO ! */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+ion-icon {
+  font-size: 40px;
+  height: 15vh;
+}
+
+.committee-header {
+  height: 15px;
+}
