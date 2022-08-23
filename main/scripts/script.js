@@ -8,3 +8,7 @@ function showMenu() {
 function hideMenu() {
   navLinks.style.right = "-200px";
 }
+
+function backtoMenu() {
+  href = "main/main.html";
+}
