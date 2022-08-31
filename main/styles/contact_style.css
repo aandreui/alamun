@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  color-scheme: dark;
+}
+
 body {
   min-height: 100vh;
   width: 100%;
@@ -15,6 +23,7 @@ ion-icon {
 }
 
 .pageHeader {
+  font-size: 40px;
   color: azure;
   text-align: center;
 }
@@ -40,4 +49,7 @@ ion-icon {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 700px) {
 }
