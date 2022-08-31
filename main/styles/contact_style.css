@@ -1,37 +1,43 @@
-body{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-
-.pageHeader{
-    color: azure;
-    text-align: center;    
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-.contactLine{
-  display: grid;  
+ion-icon {
+  font-size: 40px;
+  height: 15vh;
+  color: #fff;
+}
+
+.pageHeader {
+  color: azure;
+  text-align: center;
+}
+
+.contactLine {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(150px, auto);
   grid-row-gap: 10px;
-  grid-column-gap:5px;
+  grid-column-gap: 5px;
 }
 
-.contact{
+.contact {
   background-color: rgba(163, 163, 163, 0.753);
   text-align: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   border-radius: 20px;
 }
 
-.contactHeader{
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+.contactHeader {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
