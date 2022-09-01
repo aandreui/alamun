@@ -22,18 +22,22 @@
     <section class="BackArrow_Contact">
       <a href="main.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
       <div class="container">
-        <form>
+        <form
+          action="https://formsubmit.co/alamun.info@gmail.com"
+          method="POST"
+        >
           <h1>Contact</h1>
-          <input type="text" id="name" placeholder="Your Name" requiered />
-          <input type="email" id="email" placeholder="Your Email" requiered />
+          <input type="text" name="Name" placeholder="Your Name" requiered />
+          <input type="email" name="Email" placeholder="Your Email" requiered />
           <input
             type="phone"
-            id="phone"
+            name="Phone"
             placeholder="Your Phone Number"
             requiered
           />
           <textarea
             id="message"
+            name="Message"
             rows="4"
             placeholder="How can we help you?"
           ></textarea>
