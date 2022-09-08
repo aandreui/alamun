@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   overflow-x: hidden;
 }
 
 body {
+  min-height: 100vh;
+  width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
   background-position: center;
@@ -28,13 +30,14 @@ ion-icon {
 }
 
 form {
-  background: #3759f2;
+  background: #575962;
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
+  opacity: 0.8;
 }
 
 form h1 {
@@ -51,17 +54,24 @@ form textarea {
   outline: none;
   background: #fff;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 form button {
   padding: 15px;
-  background: #ff5361;
+  background: transparent;
   color: #fff;
   font-size: 18px;
-  border: 0;
+  border: 1px solid #ff5361;
   outline: none;
   cursor: pointer;
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+}
+
+form button:hover {
+  border: 1px solid #ff5361;
+  background: #ff5361;
+  transition: 1s;
 }
