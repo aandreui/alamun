@@ -1,6 +1,6 @@
 /* Hoja de Estilos COMMITTEES CSS ||| NO BORRAR DEL REPOSITORIO ! */
 
-body{
+body {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
@@ -27,51 +27,47 @@ ion-icon {
   height: 15px;
 }
 
-
-
-.opciones{
-  display: grid;  
+.opciones {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(150px, auto);
   grid-row-gap: 10px;
-  grid-column-gap:5px;
-  
-  
+  grid-column-gap: 5px;
 }
 
-.committeesBlock{
+.committeesBlock {
   background-color: rgba(163, 163, 163, 0.753);
-  text-align: center;
+  text-align: left;
+
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   border-radius: 20px;
-
 }
 
 .BlockHeader {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.BlockText{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.BlockText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
   font-size: medium;
 }
 
-a{
+a {
   text-decoration: underline;
   color: rgb(219, 223, 219);
 }
 
-a:visited{
+a:visited {
   text-decoration: none;
   color: rgb(219, 223, 219);
 }
 
 a:hover {
   text-decoration: wavy;
-  color:rgb(25, 114, 216)
+  color: rgb(25, 114, 216);
 }
