@@ -37,9 +37,8 @@ ion-icon {
 
 .committeesBlock {
   background-color: rgba(163, 163, 163, 0.753);
-  text-align: left;
+  text-align: center;
 
-  padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-bottom: 0.5rem;
   border-radius: 20px;
@@ -70,4 +69,11 @@ a:visited {
 a:hover {
   text-decoration: wavy;
   color: rgb(25, 114, 216);
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
 }
