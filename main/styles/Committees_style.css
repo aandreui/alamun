@@ -27,8 +27,7 @@ ion-icon {
   height: 15px;
 }
 
-.text-menu {
-}
+
 
 .opciones{
   display: grid;  
@@ -57,5 +56,22 @@ ion-icon {
 }
 
 .BlockText{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: medium;
+}
+
+a{
+  text-decoration: underline;
+  color: rgb(219, 223, 219);
+}
+
+a:visited{
+  text-decoration: none;
+  color: rgb(219, 223, 219);
+}
+
+a:hover {
+  text-decoration: wavy;
+  color:rgb(25, 114, 216)
 }
