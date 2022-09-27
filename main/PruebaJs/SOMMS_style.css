@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#js_timer{
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+#timer{
+    background-color: azure;
+    color: #000;
+    width: 100px;
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
