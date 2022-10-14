@@ -21,6 +21,7 @@ ion-icon {
   font-size: 40px;
   height: 15vh;
   color: #fff;
+  cursor: pointer;
 }
 
 .committee-header {
@@ -56,21 +57,6 @@ ion-icon {
   font-size: medium;
 }
 
-a {
-  text-decoration: underline;
-  color: rgb(219, 223, 219);
-}
-
-a:visited {
-  text-decoration: none;
-  color: rgb(219, 223, 219);
-}
-
-a:hover {
-  text-decoration: wavy;
-  color: rgb(25, 114, 216);
-}
-
 h1 {
   text-align: center;
 }
@@ -82,4 +68,78 @@ h1 {
 
 .title {
   padding-top: 5rem;
+}
+
+.SC_h1 {
+  margin-bottom: 2rem;
+}
+
+.GA_h1 {
+  margin-top: 3rem;
+}
+
+.committees_documents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.committees_choose {
+  text-align: center;
+  position: relative;
+}
+
+.Grade_container1 {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 50px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.Grade_container1_text {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Grade_container1:hover {
+  border: 1px solid #fff;
+  background: #3759f2;
+  transition: 1s;
+}
+
+.Grade_container2 {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 50px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 350px;
+  margin-top: 200px;
+}
+
+.Grade_container2_text {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Grade_container2:hover {
+  border: 1px solid #fff;
+  background: #3759f2;
+  transition: 1s;
+}
+
+.icon_school {
+  margin-bottom: 5px;
 }
