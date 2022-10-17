@@ -96,17 +96,14 @@ h1 {
   border: 1px solid #fff;
   padding: 70px 50px;
   font-size: 20px;
+  text-decoration: none;
   background: transparent;
   position: relative;
   cursor: pointer;
   border-radius: 15px;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: 200px;
-}
-
-.Grade_container1_text {
-  text-decoration: none;
-  color: #fff;
+  transition: 1s;
 }
 
 .Grade_container1:hover {
@@ -121,17 +118,14 @@ h1 {
   border: 1px solid #fff;
   padding: 70px 50px;
   font-size: 20px;
+  text-decoration: none;
   background: transparent;
   position: relative;
   cursor: pointer;
   border-radius: 15px;
   margin-left: 350px;
   margin-top: 200px;
-}
-
-.Grade_container2_text {
-  text-decoration: none;
-  color: #fff;
+  transition: 1s;
 }
 
 .Grade_container2:hover {
@@ -140,6 +134,46 @@ h1 {
   transition: 1s;
 }
 
-.icon_school {
-  margin-bottom: 5px;
+.school_icon1 {
+  position: relative;
+  right: 200px;
+}
+
+.school_icon2 {
+  position: relative;
+  right: 230px;
+}
+
+.committees_choose2 {
+  text-align: center;
+  flex: 1;
+  margin-top: 100px;
+}
+
+.committees_choose2 ul li {
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 12px;
+  margin: 20px;
+}
+
+.committees_choose2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+}
+
+.committees_choose2 ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #3759f2;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.committees_choose2 ul li:hover::after {
+  width: 12%;
 }
