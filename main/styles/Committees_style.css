@@ -82,6 +82,10 @@ h1 {
   margin: 30px;
 }
 
+.WHO {
+  margin: 30px;
+}
+
 .committees_documents {
   display: flex;
   justify-content: center;
