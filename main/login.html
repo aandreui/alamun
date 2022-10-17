@@ -1,4 +1,47 @@
+<!-- <?php
+	require_once('db.php');
+ 
+	$db =  connect();
+    session_start();
 
+
+    //************* OBTENER IP DEL USUARIO CONECTADO *************
+
+
+	if(!empty($_POST))
+  	{
+		$usuario = mysqli_real_escape_string($db,$_POST['usuario']);
+		$password = mysqli_real_escape_string($db,$_POST['password']);
+		$error = '';
+		$datos = '';
+		$elem = $_POST['usuario'];
+		$elem1 = $_POST['password'];
+		$bandera=0;
+
+
+		$query=$db->query("SELECT ID_USUARIO, ID_TIPO_USUARIO, NOMBRE FROM USUARIOS WHERE USUARIO = '$usuario' AND PASSWORD = '$password'");
+		$usuarios = array();
+		while($a=$query->fetch_object()){ $usuarios[]=$a; }
+		foreach($usuarios as $c){
+			$bandera=1;
+			$_SESSION['id_usuario'] = $c->ID_USUARIO;
+            $_SESSION['nombre_usuario'] = $c->NOMBRE;
+			$_SESSION['continuar'] = 1;
+		}
+		if ($bandera==0){
+			$error = "El usuario o password son incorrectos";
+		}
+		else
+		{
+     
+			$datos = "Datos Correctos";
+			
+			header("Location: consaopar.php");
+		
+		}
+	}
+
+?> -->
 
 
 
@@ -19,7 +62,7 @@
 
     </head>
 
-    <body">
+    <body>
     	<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST" >
 
         <a href="main.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
@@ -86,7 +129,7 @@
         <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>
         <![endif]-->
-        
+
        <!----Scripts---->
     <script
     type="module"
