@@ -49,6 +49,7 @@ form h1 {
 
 form input,
 form textarea {
+  color: black;
   border: 0;
   margin: 10px 0;
   padding: 20px;
