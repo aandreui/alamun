@@ -98,6 +98,10 @@ h1 {
   margin: 30px;
 }
 
+.UNWater {
+  margin: 30px;
+}
+
 .committees_documents {
   display: flex;
   justify-content: center;
@@ -251,30 +255,6 @@ h1 {
   }
 
   .mobile_documents1 a:hover {
-    text-decoration: none;
-    border: 1px solid #fff;
-    background: #3759f2;
-    transition: 1s;
-  }
-
-  .mobile_documents2 a {
-    text-align: center;
-    display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 15px 25px;
-    font-size: 20px;
-    text-decoration: none;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    border-radius: 15px;
-    margin-left: 150px;
-    margin-top: 50px;
-    text-decoration: none;
-  }
-
-  .mobile_documents2 a:hover {
     text-decoration: none;
     border: 1px solid #fff;
     background: #3759f2;
