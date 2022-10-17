@@ -191,22 +191,25 @@ h1 {
     overflow-x: hidden;
   }
   .Grade_container1 {
-    font-size: 18px;
-    margin-left: 110px;
+    font-size: 14px;
+    margin-left: 50px;
     margin-top: 100px;
   }
 
   .Grade_container2 {
-    font-size: 18px;
-    margin-left: 80px;
+    font-size: 13px;
+    margin-left: 10px;
     margin-top: 100px;
+    display: inline-block;
   }
 
   .school_icon1 {
-    margin-left: 15px;
+    margin-left: 35px;
+    position: relative;
   }
 
   .school_icon2 {
-    margin-left: 15px;
+    margin-left: 55px;
+    position: relative;
   }
 }
