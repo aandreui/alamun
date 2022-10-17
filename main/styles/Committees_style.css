@@ -71,11 +71,15 @@ h1 {
 }
 
 .SC_h1 {
-  margin-bottom: 2rem;
+  margin: 30px;
 }
 
 .GA_h1 {
-  margin-top: 2rem;
+  margin: 30px;
+}
+
+.G24 {
+  margin: 30px;
 }
 
 .committees_documents {
