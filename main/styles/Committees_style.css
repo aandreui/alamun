@@ -39,7 +39,7 @@ ion-icon {
 .committeesBlock {
   background-color: rgba(163, 163, 163, 0.753);
   text-align: center;
-
+  margin-top: 80px;
   padding-right: 1.5rem;
   padding-bottom: 0.5rem;
   border-radius: 20px;
