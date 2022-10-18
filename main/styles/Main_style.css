@@ -98,6 +98,7 @@ nav {
   background: transparent;
   position: relative;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /* Animacion del texto central de la pagina */
