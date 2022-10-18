@@ -212,6 +212,7 @@ h1 {
 
 .AboutUs-text p {
   display: inline-block;
+  text-align: center;
   color: #fff;
   padding: 70px 50px;
   font-size: 20px;
@@ -219,9 +220,7 @@ h1 {
   background: transparent;
   position: relative;
   border-radius: 15px;
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-top: 25px;
 }
 
 @media (max-width: 700px) {
