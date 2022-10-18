@@ -64,7 +64,7 @@ if (!empty($_POST)) {
 <body>
     <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
 
-        <a href="main.html">
+        <a href="index.html">
             <ion-icon name="chevron-back-outline"></ion-icon>
         </a>
 
