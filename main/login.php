@@ -11,7 +11,7 @@ session_start();
 
 
 //************* OBTENER IP DEL USUARIO CONECTADO *************
-/*
+
 
 if (!empty($_POST)) {
     $usuario = mysqli_real_escape_string($db, $_POST['usuario']);
@@ -42,7 +42,7 @@ if (!empty($_POST)) {
 
         header("Location: consaopar.php");
     }
-}*/
+}
 
 ?>
 
