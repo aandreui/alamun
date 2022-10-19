@@ -214,6 +214,10 @@ h1 {
   display: none;
 }
 
+.mobile_backgroundpaper a {
+  display: none;
+}
+
 .AboutUs-text p {
   display: inline-block;
   text-align: center;
@@ -262,6 +266,30 @@ h1 {
 
   embed {
     display: none;
+  }
+
+  .mobile_backgroundpaper a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+
+  .mobile_backgroundpaper a:hover {
+    text-decoration: none;
+    border: 1px solid #fff;
+    background: #3759f2;
+    transition: 1s;
   }
 
   .mobile_documents1 a {
