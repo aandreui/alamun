@@ -110,6 +110,10 @@ h1 {
   margin: 30px;
 }
 
+.Aboutus {
+  margin: 30px;
+}
+
 .committees_documents {
   display: flex;
   justify-content: center;
@@ -228,7 +232,6 @@ h1 {
   background: transparent;
   position: relative;
   border-radius: 15px;
-  margin-top: 25px;
 }
 
 @media (max-width: 700px) {
