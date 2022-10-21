@@ -106,6 +106,35 @@ h1 {
   margin: 30px;
 }
 
+.ECOSOC2 {
+  margin: 30px;
+}
+
+.Aboutus {
+  margin: 30px;
+}
+
+.About-schedule a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 100px;
+  font-size: 20px;
+  text-decoration: none;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 40%;
+  transition: 1s;
+}
+
+.About-schedule a:hover {
+  border: 1px solid #fff;
+  background: #3759f2;
+  transition: 1s;
+}
+
 .committees_documents {
   display: flex;
   justify-content: center;
@@ -210,6 +239,10 @@ h1 {
   display: none;
 }
 
+.mobile_backgroundpaper a {
+  display: none;
+}
+
 .AboutUs-text p {
   display: inline-block;
   text-align: center;
@@ -220,7 +253,6 @@ h1 {
   background: transparent;
   position: relative;
   border-radius: 15px;
-  margin-top: 25px;
 }
 
 @media (max-width: 700px) {
@@ -256,8 +288,36 @@ h1 {
     margin-top: 30px;
   }
 
+  .About-schedule a {
+    margin-left: 60px;
+  }
+
   embed {
     display: none;
+  }
+
+  .mobile_backgroundpaper a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+
+  .mobile_backgroundpaper a:hover {
+    text-decoration: none;
+    border: 1px solid #fff;
+    background: #3759f2;
+    transition: 1s;
   }
 
   .mobile_documents1 a {

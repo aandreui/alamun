@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  text-align: center;
+  background: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.container h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  line-height: 1.2;
+  display: block;
+  font-weight: 800;
+  padding-bottom: 10px;
+  color: #23272a;
+}
+
+.container p {
+  font-family: inherit;
+}
