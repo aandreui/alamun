@@ -114,6 +114,27 @@ h1 {
   margin: 30px;
 }
 
+.About-schedule a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 100px;
+  font-size: 20px;
+  text-decoration: none;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 40%;
+  transition: 1s;
+}
+
+.About-schedule a:hover {
+  border: 1px solid #fff;
+  background: #3759f2;
+  transition: 1s;
+}
+
 .committees_documents {
   display: flex;
   justify-content: center;
@@ -265,6 +286,10 @@ h1 {
   .committees_choose {
     font-size: small;
     margin-top: 30px;
+  }
+
+  .About-schedule a {
+    margin-left: 60px;
   }
 
   embed {
