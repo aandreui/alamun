@@ -142,6 +142,28 @@ h1 {
   padding-bottom: 2rem;
 }
 
+.committees_documents_new {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 100px;
+  font-size: 25px;
+  text-decoration: none;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 290px;
+  margin-top: 50px;
+  transition: 1s;
+}
+
+.committees_documents_new:hover {
+  border: 1px solid #fff;
+  background: #3759f2;
+  transition: 1s;
+}
+
 .committees_choose {
   text-align: center;
   position: relative;
@@ -243,6 +265,18 @@ h1 {
   display: none;
 }
 
+.committees-text p {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding: 70px 50px;
+  font-size: 20px;
+  text-decoration: none;
+  background: transparent;
+  position: relative;
+  border-radius: 15px;
+}
+
 .AboutUs-text p {
   display: inline-block;
   text-align: center;
@@ -293,6 +327,10 @@ h1 {
   }
 
   embed {
+    display: none;
+  }
+
+  .committees_documents_new {
     display: none;
   }
 
