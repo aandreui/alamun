@@ -28,23 +28,40 @@
           method="POST"
         >
           <h1>Contact</h1>
+          <cite>*Requiered fields</cite>
           <input
             type="hidden"
             name="_next"
             value="https://alamosalamun.com/thanks.html"
           />
-          <input type="text" name="Name" required placeholder="Your Name" />
-          <input type="email" name="Email" required placeholder="Your Email" />
+          <input
+            type="text"
+            name="Name"
+            maxlength="254"
+            required
+            placeholder="*Your Name"
+          />
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            maxlength="254"
+            required
+            placeholder="*Your Email"
+          />
           <input
             type="tel"
-            maxlength="15"
+            id="phone"
             name="Phone"
+            maxlength="15"
+            pattern="[+][0-9]{1,15}"
             required
-            placeholder="Your Phone Number"
+            placeholder="*Your Phone Number (enter your country and area code)"
           />
           <textarea
             id="message"
             name="Message"
+            maxlength="500"
             rows="4"
             placeholder="How can we help you?"
           ></textarea>
