@@ -97,7 +97,13 @@ nav {
   font-size: 13px;
   background: transparent;
   position: relative;
+  display: flex;
   cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 5px;
   transition: 0.5s;
 }
 

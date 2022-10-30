@@ -145,7 +145,6 @@ h1 {
 }
 
 .committees_documents_new {
-  display: inline-block;
   color: #fff;
   border: 1px solid #fff;
   padding: 70px 100px;
@@ -154,9 +153,12 @@ h1 {
   background: transparent;
   position: relative;
   cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  width: fit-content;
+  display: flex;
   border-radius: 15px;
-  margin-left: 290px;
-  margin-top: 50px;
   transition: 1s;
 }
 
@@ -169,6 +171,7 @@ h1 {
 .committees_choose {
   text-align: center;
   position: flex;
+  margin: 30px;
   margin-bottom: 100px;
 }
 
@@ -239,7 +242,6 @@ h1 {
 }
 
 .committees-text p {
-  display: inline-block;
   text-align: center;
   color: #fff;
   padding: 70px 50px;
@@ -247,7 +249,15 @@ h1 {
   text-decoration: none;
   background: transparent;
   position: relative;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
   border-radius: 15px;
+}
+
+.committees-text footer cite {
+  display: block;
+  margin-bottom: 50px;
 }
 
 .AboutUs-text p {
@@ -322,10 +332,13 @@ h1 {
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 15px;
-    margin-left: 150px;
-    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: fit-content;
+    display: flex;
     text-decoration: none;
+    border-radius: 15px;
   }
 
   .mobile_documents1 a:hover {
