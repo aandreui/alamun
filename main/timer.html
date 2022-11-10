@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div id="countdown">
+      <div id="countdown-number"></div>
+      <svg>
+        <circle r="90" cx="100" cy="100"></circle>
+      </svg>
+    </div>
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #3b3b3b;
+      }
+
+      #countdown {
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+      }
+
+      #countdown-number {
+        color: white;
+        display: inline-block;
+        line-height: 450px;
+        font-size: 50px;
+      }
+
+      svg {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 240px;
+        height: 410px;
+        transform: rotateY(-180deg) rotateZ(-90deg);
+      }
+
+      svg circle {
+        stroke-dasharray: 565px;
+        stroke-dashoffset: 0px;
+        stroke-linecap: round;
+        stroke-width: 2px;
+        stroke: white;
+        fill: none;
+        animation: countdown 30s linear infinite forwards;
+      }
+
+      @keyframes countdown {
+        from {
+          stroke-dashoffset: 0px;
+        }
+        to {
+          stroke-dashoffset: 565px;
+        }
+      }
+    </style>
+    <script>
+      var countdownNumberEl = document.getElementById("countdown-number");
+      var countdown = 30;
+
+      countdownNumberEl.textContent = countdown;
+
+      setInterval(function () {
+        countdown = --countdown <= 0 ? 30 : countdown;
+
+        countdownNumberEl.textContent = countdown;
+      }, 1000);
+    </script>
+  </body>
+</html>
