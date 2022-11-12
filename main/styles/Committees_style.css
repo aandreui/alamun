@@ -4,7 +4,10 @@ body {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);
+    url(assets/images/school.png);
+  /*background-color: rgb(2, 4, 8);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://www.skolar.mx/upload/imagen_header/skolar-COLEGIO-ALAMOS-PCOL205234-Primaria-RPNV553275.jpg);*/
   background-position: center;
   background-size: cover;
   position: relative;
