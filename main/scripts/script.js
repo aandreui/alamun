@@ -8,3 +8,7 @@ function showMenu() {
 function hideMenu() {
   navLinks.style.right = "-200px";
 }
+
+function notavailable() {
+  alert("This information is not yet available. Try later.");
+}
