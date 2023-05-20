@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer Example</title>
+  </head>
+  <body>
+    <h1>Timer</h1>
+
+    <div id="timer">
+      <span id="hours">00</span>: <span id="minutes">00</span>:
+      <span id="seconds">00</span>
+    </div>
+
+    <form id="timerForm">
+      <label for="hoursInput">Hours:</label>
+      <input type="number" id="hoursInput" min="0" />
+      <label for="minutesInput">Minutes:</label>
+      <input type="number" id="minutesInput" min="0" />
+      <label for="secondsInput">Seconds:</label>
+      <input type="number" id="secondsInput" min="0" />
+      <button type="button" onclick="startTimer()">Start</button>
+    </form>
+
+    <script src="scripts/script.js"></script>
+
+    <style>
+      body {
+        background-color: black;
+        color: #fff;
+      }
+
+      #timer {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 5rem;
+        margin-bottom: 1rem;
+      }
+
+      #timer span {
+        padding: 1rem;
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      label {
+        margin-right: 5px;
+      }
+
+      input[type="number"] {
+        width: 60px;
+      }
+    </style>
+  </body>
+</html>
