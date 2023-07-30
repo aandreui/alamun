@@ -74,7 +74,7 @@ function padZero(num) {
 
   // Options for the Intersection Observer
   const options = {
-    threshold: 0.5, // 0.5 means 50% of the element needs to be visible to trigger the animation
+    threshold: 0, // 0.5 means 50% of the element needs to be visible to trigger the animation
   };
 
   // Create the Intersection Observer
@@ -114,7 +114,7 @@ function padZero(num) {
 
   // Options for the Intersection Observer
   const options = {
-    threshold: 0.5, // 0.5 means 50% of the element needs to be visible to trigger the animation
+    threshold: 0, // 0.5 means 50% of the element needs to be visible to trigger the animation
   };
 
   // Create the Intersection Observer
@@ -154,7 +154,7 @@ function padZero(num) {
 
   // Options for the Intersection Observer
   const options = {
-    threshold: 0.0, // 0.5 means 50% of the element needs to be visible to trigger the animation
+    threshold: 0, // 0.5 means 50% of the element needs to be visible to trigger the animation
   };
 
   // Create the Intersection Observer
@@ -194,7 +194,7 @@ function padZero(num) {
 
   // Options for the Intersection Observer
   const options = {
-    threshold: 0.0, // 0.5 means 50% of the element needs to be visible to trigger the animation
+    threshold: 0, // 0.5 means 50% of the element needs to be visible to trigger the animation
   };
 
   // Create the Intersection Observer
@@ -234,7 +234,7 @@ function padZero(num) {
 
   // Options for the Intersection Observer
   const options = {
-    threshold: 0.0, // 0.5 means 50% of the element needs to be visible to trigger the animation
+    threshold: 0, // 0.5 means 50% of the element needs to be visible to trigger the animation
   };
 
   // Create the Intersection Observer
