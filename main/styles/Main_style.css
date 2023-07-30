@@ -123,6 +123,85 @@ ion-icon {
   display: none;
 }
 
+/* End Section 1 */
+
+/* Set the video element to cover the entire screen */
+#video-background {
+  position: fixed;
+  top: 2rem;
+  right: 0;
+  bottom: 2rem;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.section2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.section2 h1 {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.section2 h3 {
+  color: rgb(147, 51, 45);
+}
+
+.row p {
+  color: grey;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.valuable-info {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+/* End Section 2 */
+
+.section3 {
+  background-color: #fff;
+}
+
+.section3 h1 {
+  color: black;
+  text-align: center;
+  padding: 10rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35 px;
+  cursor: pointer;
+}
+
 /* Optimizacion de la pagina para dispositivos moviles */
 
 @media (max-width: 700px) {
@@ -152,5 +231,8 @@ ion-icon {
   }
   .nav-links ul {
     padding: 30px;
+  }
+  .row {
+    display: block;
   }
 }
